@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+    .card {
+        width: 80%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 370px) {
+    body {
+        font-size: 18px;
+    }
+
+.desktop-pattern {
+    margin: 30px;
+}
+
+    .container .card .button {
+        margin-top: 10px;
+    }
+}
