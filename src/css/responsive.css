@@ -6,18 +6,29 @@
         width: 80%;
         max-width: 350px;
     }
+    .images {
+        width: 80%;
+        max-width: 350px;
+    }
+    .container .images .desktop-pattern {
+        margin: 25px;
+    }
+    .container .images .button {
+        margin-top: 10px;
+    }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 440px) {
     body {
         font-size: 18px;
     }
 
-.desktop-pattern {
-    margin: 30px;
+.container .images .desktop-pattern {
+    margin-top: 25px;
+    width: 60vw
 }
 
-    .container .card .button {
+    .container .images .button {
         margin-top: 10px;
     }
 }
